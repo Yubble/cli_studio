@@ -1,3 +1,5 @@
 const chalk = require('chalk')
 
-chalk.green('脚手架成了')
+const hint = chalk.green('脚手架成了')
+
+console.log(hint)
